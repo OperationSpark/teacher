@@ -28,10 +28,10 @@ parseCsv(argv.f, function(err, students) {
 });
 
 function createStudentBranch(student) {
-    var cmd = `git checkout -b ${student} && git push origin ${student}`;
+    var cmd = `git checkout -b ${student.github} && git push origin ${student.github}`;
     var child = exec(cmd, function (err, stdout, stderr) {
         if (err) { throw err; }
-        console.log(`Successfully created student branch for ${student}!`);
+        console.log(`Successfully created student branch for ${student.github}!`);
     });
 }
 
