@@ -2,6 +2,10 @@
 
 'use strict';
 
+/**
+ * teacher: tools for teachers.
+ */
+
 const
   csv = require('csv'),
   parse = require('csv-parse'),
