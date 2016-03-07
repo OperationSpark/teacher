@@ -1,5 +1,5 @@
 {
-  "name": "teacher",
+  "name": "teacher-tools",
   "version": "1.0.0",
   "description": "A teacher robot for Operation Spark",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "teacher": "index.js",
     "tch": "index.js"
   },
-  "author": "John Fraboni <johnfraboni@gmail.com> (http://operationspark.org/)",
+  "author": "jfraobni <johnfraboni@gmail.com> (http://operationspark.org/)",
   "license": "",
   "dependencies": {
     "csv": "^0.4.6",

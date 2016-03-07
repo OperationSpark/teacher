@@ -41,7 +41,7 @@ function deleteStudentBranch(student) {
 }
 
 function parseCsv(path, callback) {
-  var readStream = fs.createReadStream(__dirname + '/' + path);
+  var readStream = fs.createReadStream(path);
   var parser = parse({columns: true}, function(err, data) {
     callback(err, data);
   });
