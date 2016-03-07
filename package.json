@@ -1,0 +1,20 @@
+{
+  "name": "teacher",
+  "version": "1.0.0",
+  "description": "A teacher robot for Operation Spark",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "bin": {
+    "teacher": "index.js",
+    "tch": "index.js"
+  },
+  "author": "John Fraboni <johnfraboni@gmail.com> (http://operationspark.org/)",
+  "license": "",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "csv-parse": "^1.0.2",
+    "minimist": "^1.2.0"
+  }
+}
